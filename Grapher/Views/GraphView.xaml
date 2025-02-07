@@ -118,7 +118,7 @@
                             <TextBlock FontFamily="Cascadia Code SemiBold" Text="ƒ(x) =" VerticalAlignment="Top" Foreground="White" FontSize="16"/>
                             <TextBox VerticalAlignment="Top" Text="{Binding FunctionText}" FontFamily="Cascadia Code SemiBold" Style="{DynamicResource CustomTextBoxStyle}" Width="350" FontSize="16" Margin="10,0,15,0" MaxLines="1"/>
                             <StackPanel>
-                                <Button FontFamily="Cascadia Code SemiBold" Height="35" Width="95" Content="Добавить" Style="{DynamicResource MenuButtonStyle}" Foreground="White" FontSize="16"
+                                <Button FontFamily="Cascadia Code SemiBold" Height="35" Width="95" Content="Построить" Style="{DynamicResource MenuButtonStyle}" Foreground="White" FontSize="16"
                                 Command="{Binding InvokeCommand}"/>
                                 <Button Content="Очистить" Margin="0,5,0,0" FontFamily="Cascadia Code SemiBold" Height="35" Width="95"
                                         Style="{DynamicResource MenuButtonStyle}" Foreground="White" FontSize="16"

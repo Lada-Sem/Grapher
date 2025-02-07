@@ -10,7 +10,7 @@
         xmlns:vv="clr-namespace:Grapher.Views"
         mc:Ignorable="d"
         Name="mainWindow"
-        Title="Grapher" Height="720" Width="1080" AllowsTransparency="True" Background="{x:Null}" WindowStyle="None">
+        Title="Grapher" Height="720" Width="1080" AllowsTransparency="True" Background="{x:Null}" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <DataTemplate DataType="{x:Type vmv:InfoViewModel}">
             <vv:InfoView DataContext="{Binding}"/>
@@ -52,13 +52,13 @@
                 </Grid>
             </Border>
             <StackPanel Grid.Row="0" Grid.RowSpan="2">
-                <Image Source="/Assets/grapher.png" RenderOptions.BitmapScalingMode="HighQuality" Width="125" Margin="0,25,0,10"/>
+                <Image Source="/Image/grapher.png" RenderOptions.BitmapScalingMode="HighQuality" Width="125" Margin="0,25,0,10"/>
                 <TextBlock Text="Grapher" FontSize="36" TextAlignment="Center" Foreground="White" FontFamily="Cascadia Code SemiBold"/>
                 <Rectangle Fill="#FF7B7B7B" Height="1.2" Margin="0,10,0,25"/>
                 <Button Style="{DynamicResource MenuButtonStyle}" Height="50"
                         Command="{Binding SwitchMenuCommand}" CommandParameter="Graph">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Assets/growth.png" Width="35" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <Image Source="/Image/growth.png" Width="35" RenderOptions.BitmapScalingMode="HighQuality"/>
                         <TextBlock Text="График" Margin="10,0" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
                     </StackPanel>
                 </Button>
@@ -67,7 +67,7 @@
             <Button Style="{DynamicResource MenuButtonStyle}" VerticalAlignment="Top" Grid.Row="1" Height="50" Margin="0,591,0,0"
                     Command="{Binding SwitchMenuCommand}" CommandParameter="FAQ">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="/Assets/help.png" Width="35" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <Image Source="/Image/help.png" Width="35" RenderOptions.BitmapScalingMode="HighQuality"/>
                     <TextBlock Text="FAQ" Margin="10,0" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
                 </StackPanel>
             </Button>

@@ -9,15 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\grapher.png" />
-    <None Remove="Assets\growth.png" />
-    <None Remove="Assets\help.png" />
+    <None Remove="Image\grapher.png" />
+    <None Remove="Image\growth.png" />
+    <None Remove="Image\help.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\grapher.png" />
-    <Resource Include="Assets\growth.png" />
-    <Resource Include="Assets\help.png" />
+    <Resource Include="Image\grapher.png" />
+    <Resource Include="Image\growth.png" />
+    <Resource Include="Image\help.png" />
   </ItemGroup>
 
   <ItemGroup>
